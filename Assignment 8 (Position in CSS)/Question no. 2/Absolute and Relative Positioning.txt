@@ -1,0 +1,15 @@
+Absolute Positioning:
+
+1. When an element is set to have absolute positioning, it is positioned relative to its closest positioned ancestor or, if none exists, to the initial containing block (usually the viewport or the document body).
+
+2. Elements with absolute positioning are taken out of the normal flow of the document. This means they do not affect the position of other elements on the page.
+
+3. Absolute positioning is defined by specifying values for top, right, bottom, and left CSS properties.
+
+Relative Positioning:
+
+1. When an element has relative positioning, it is positioned relative to its normal position in the document flow.
+
+2. Elements with relative positioning can be moved using the top, right, bottom, and left properties, but they still occupy the space they would have if they were not moved.
+
+3. Other elements on the page are positioned as if the relatively positioned element still took up its original space.

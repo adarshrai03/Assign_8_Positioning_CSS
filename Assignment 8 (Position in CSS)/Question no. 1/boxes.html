@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes positioning</title>
+    <style>
+        
+        .container{
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            display: inline-block;
+            position: relative;
+        }
+        .box{
+            text-align: center;
+            height: 135px;
+            width: 135px;
+            border: 1px solid green;
+            background-color: lightpink;
+        }
+        #box1{
+            position: absolute;
+            top: 81.5px;
+            left: 81.5px;
+        }
+        #box2{
+            position: absolute;
+            top: 163px;
+            left: 0px;
+        }
+        #box3{
+            position: absolute;
+            top: 0px;
+            left: 163px;
+        }
+        #box4{
+            position: absolute;
+            top: 163px;
+            left: 163px;
+        }
+        #box5{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">A</div>
+        <div class="box" id="box2">B</div>
+        <div class="box" id="box3">C</div>
+        <div class="box" id="box4">D</div>
+        <div class="box" id="box5">E</div>
+    </div>
+</body>
+</html>
